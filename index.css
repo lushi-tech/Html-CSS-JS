@@ -1,0 +1,216 @@
+
+
+header{background-color: #f4f6fc;
+    text-align: center;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    box-shadow:0 3px 10px;}
+    
+
+.one {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+h1.title{padding-top:2px;
+   font-family:Bernard MT Condensed;
+   font-size: 20px;
+   margin-left: 10px;}
+
+img.logo{
+        width: 55px;
+        height: 55px;
+    }
+
+.search-bar {
+        width: 35%;
+        padding: 2px 2px 2px 30px;
+        margin-left: 10px;
+        border-radius: 40px;
+        height: 30px;
+
+        border: 1px solid #ada9a9;
+        background-image: url("https://www.pngarea.com/pngm/109/1164446_searchicon-png-search-icon-png-download.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        outline: 0;
+        background-position: 12px;
+        background-size: 16px;
+    }
+
+
+    
+
+    .div2 {
+        display: flex;
+        align-items: center;
+    }
+
+    .list {
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+    }
+
+    .list li a{
+        margin-right: 20px;
+        text-decoration: none;
+         color: inherit;
+        font-size: 15px;}
+
+    li{
+     display: inline;
+     float: right;}   
+
+    li:hover{text-decoration: underline;}
+     
+
+
+section.container {
+  position: relative;
+margin:40px;
+}
+
+.image {
+  max-width: 100%; 
+  height: auto; 
+  display: block;
+}
+
+div.textbox {
+    width: 35%;
+    height: 40%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: white;
+  padding: 10px;
+  margin:80px 20px 50px 70px;
+  border: 3px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);}
+
+p.p{font-family: Sitka Small Semibold;
+font-size:30px;}
+p.p2{font-family:Sitka Subheading Semibold;
+font-size: 25px;}
+
+
+div.two{
+   margin:10px 35px 10px 35px;}
+
+p.p3{ font-size: 25px;
+      font-family: stika system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom: 0px;}
+
+p.p4{font-size: 15px;
+     font-family:sitka system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+
+
+
+ div.three{overflow: scroll;
+           border:1px;
+           border-style: solid;
+           border-color:black ;
+           height: 400px;
+           width: 1000px;
+           left: 4%;
+           padding:0 40px 40px 40px;
+           font-family: Arial narrow;
+           font-size: 20px;
+           margin: 10px 30px 10px 50px;}
+
+
+
+p.p6{font-size: 26px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin: 0px 30px 0px 30px;}
+
+
+p.p6:fisrt-letter{
+    font-family: Sitka Subheading Semibold;
+    font-size:50px;}
+
+div.four h2{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 30px;
+          }
+
+
+
+div.four{  background-color: rgb(31, 51, 81);
+    margin: 10px 40px 30px 30px;
+    color: whitesmoke;
+    padding: 30px 30px 30px 30px;
+}
+
+
+
+section.category{font-size: 30px;
+               font-family:arial narrow;
+               text-decoration: none;
+               margin-left: 30px;
+               margin-bottom: 30px;
+               margin-top: 200px;
+               background-color:#f4f6fc;}
+    
+.category img:hover{transform: scale(1.1);
+                    box-shadow: 0px 0px 10px rgba(0,0,0.5);}
+
+a.link1{ font-family: arial narrow;
+         font-size:20px ;
+        text-decoration: none;
+        color: black;}
+
+div.five{text-decoration: none;
+        margin:200px 4px 20px 0px;
+        border: 1px solid black;
+        width:500 ;
+        height: 350px;}
+
+h3.learn{font-size: 30px; 
+         text-align: center;
+         padding: 0px;}
+
+a.link2{text-decoration: none;
+        color: black;
+        font-family: 'Courier New', Courier, monospace;
+        padding: 0px 10px 0px 11px;}
+
+
+
+
+
+
+        footer a{color: #f4f6fc;
+            text-decoration: none;
+            padding: 0px 20px 0px 20px;
+            display:inline;}
+          
+ 
+ footer { background-color: #000;
+             color: #fff; 
+             padding: 10px;
+             text-align: left;}
+ 
+     .footer-content { display: flex;
+                      align-items: left;}
+ 
+     .fo-li {list-style: none;
+             padding: 0;
+             margin: 30px 0px 20px 0px;
+             display: flex;}
+ 
+     .fo-li li {margin-right: 0px;}
+ 
+     .fo-li a {text-decoration: none;
+             color: #fff; }
+ 
+     .me { margin-right: 0px; }
+ 
+     .second-line { margin-top: 50px;
+                    text-align: center;}
+
+
+
+

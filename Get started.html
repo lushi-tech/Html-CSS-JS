@@ -1,0 +1,223 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Get Started</title>
+        <link rel="stylesheet" href="index.css">
+        <style>
+            header{background-color: #f4f6fc;
+    text-align: center;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    box-shadow:0 3px 10px;
+    margin-bottom: 20px;}
+
+.one {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+h1.title{padding-top:2px;
+   font-family:Bernard MT Condensed;
+   font-size: 20px;
+   margin-left: 10px;}
+
+img.logo{
+        width: 55px;
+        height: 55px;
+    }
+
+.search-bar {
+        width: 35%;
+        padding: 2px 2px 2px 30px;
+        margin-left: 10px;
+        border-radius: 40px;
+        height: 30px;
+
+        border: 1px solid #ada9a9;
+        background-image: url("https://www.pngarea.com/pngm/109/1164446_searchicon-png-search-icon-png-download.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        outline: 0;
+        background-position: 12px;
+        background-size: 16px;
+    }
+
+
+    .div2 {
+        display: flex;
+        align-items: center;
+    }
+
+    .list {
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+    }
+
+    .list li a{
+        margin-right: 20px;
+        text-decoration: none;
+         color: inherit;
+        font-size: 15px;}
+
+    li{
+     display: inline;
+     float: right;}   
+
+    li:hover{text-decoration: underline;}
+
+
+
+
+
+    footer a{color: #f4f6fc;
+            text-decoration: none;
+            padding: 0px 20px 0px 20px;
+            display:inline;}
+          
+ 
+ footer { background-color: #000;
+             color: #fff; 
+             padding: 10px;
+             text-align: left;}
+ 
+     .footer-content { display: flex;
+                      align-items: left;}
+ 
+     .fo-li {list-style: none;
+             padding: 0;
+             margin: 30px 0px 20px 0px;
+             display: flex;}
+ 
+     .fo-li li {margin-right: 0px;}
+ 
+     .fo-li a {text-decoration: none;
+             color: #fff; }
+ 
+     .me { margin-right: 0px; }
+ 
+     .second-line { margin-top: 50px;
+                    text-align: center;}
+    main form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 600px;
+        margin: 0 auto; 
+    }
+
+    main form label,
+    main form input,
+    main form textarea {
+        width: calc(48% - 10px); 
+        margin-top: 20px; 
+        margin-bottom: 10px;
+    }
+
+    main form textarea {
+        width: calc(100% - 10px);
+    }
+
+    main form input[type="url"] {
+        width: calc(100% - 10px);
+    }
+
+    main form input[type="submit"] {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+         
+        </style>
+    </head>
+
+    <body>
+        
+        <header>
+            <nav class="one">
+                <img src="image/logo.png"alt="logo" width="100" height="100" class="logo">
+                <input class="search-bar" type="text" placeholder="         Search">
+                <h1 class="title"><center>Virtual Academy</center></h1>
+                <div class="div2">
+                <ul class="list">
+                    <li ><a href="#courses">Teach on Virtual Academy</a></li>
+                    <li ><a href="#fields">Category</a></li>
+                    <li ><a href="#other-pages">Sign up</a></li>
+                    <li><a href="#djjcjdjsd">Log in</a></li>
+                </ul>
+            </div>
+            </nav>
+        </header>
+
+    <main>
+        <form action="#" method="post">
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="firstName" required>
+    
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" name="lastName" required>
+    
+            <label for="headline">Headline</label>
+            <input type="text" id="headline" name="headline" required>
+    
+            <label for="biography">Biography</label>
+            <textarea id="biography" name="biography" rows="4" not required></textarea>
+    
+            <label for="language">Language</label>
+
+            <select id="language" name="language">
+            <option value="albanian">Albania</option>
+            <option value="english">English</option>
+            <option value="german">German</option>
+            <option value="french">French</option>
+            <option value="italian">Italian</option>
+            <option value="spanish">Spanish</option>
+            <option value="russian">Russian</option>
+        </select>
+    
+            <label for="website">Website</label>
+            <input type="url" id="website" name="website" placeholder="http://www.example.com">
+    
+            <label for="twitter">Twitter</label>
+            <input type="Username" id="twitter" name="twitter" placeholder="Username">
+    
+            <label for="facebook">Facebook</label>
+            <input type="Username" id="facebook" name="facebook" placeholder="Username">
+    
+            <label for="linkedin">LinkedIn</label>
+            <input type="Username" id="linkedin" name="linkedin" placeholder="Username">
+    
+            <label for="youtube">YouTube</label>
+            <input type="Username" id="youtube" name="youtube" placeholder="Username">
+    
+            <input type="submit" value="Save">
+        </form>
+    </main>
+  
+
+
+   <footer class="footer-content"> 
+    <p class="first-line">
+    <img class="me" src="image/logo.png" alt="" height="50" width="50">
+    <ul class="fo-li">
+        <li class="left"><a href="#">Teach on Virtaul Academy</a></li>
+        <li class="left"><a href="about us.html">About Us</a></li>
+        <li class="left"><a href="contact us.html">Contact Us</a></li>
+    </ul>
+    </p>
+   
+        
+        <p class="second-line"> &copy; 2024 Virtual Academy. All rights reserved.</p>
+   
+</footer>
+
+    </body>
+
+
+
+    
+</html>
+

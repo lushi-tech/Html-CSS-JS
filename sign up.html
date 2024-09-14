@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Sign UP</title>
+        <link rel="stylesheet" href="index.css">
+
+        <style>
+            body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        
+        form {
+            display: grid;
+            gap: 20px;
+        }
+        
+        label {
+            font-weight: bold;
+        }
+        
+        input,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        
+        button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: #45a049;
+        }
+        
+        </style>
+        <style>
+            header{background-color: #f4f6fc;
+            text-align: center;
+            color:rgb(0, 0, 0);
+            text-decoration: none;
+            box-shadow:0 3px 10px;}
+            
+        
+        .one {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                
+            }
+        
+        h1.title{padding-top:2px;
+           font-family:Bernard MT Condensed;
+           font-size: 20px;
+           margin-left: 10px;}
+        
+        img.logo{
+                width: 55px;
+                height: 55px;
+            }
+        
+        .search-bar {
+                width: 35%;
+                padding: 2px 2px 2px 30px;
+                margin-left: 10px;
+                border-radius: 40px;
+                height: 30px;
+        
+                border: 1px solid #ada9a9;
+                background-image: url("https://www.pngarea.com/pngm/109/1164446_searchicon-png-search-icon-png-download.png");
+                background-size: contain;
+                background-repeat: no-repeat;
+                outline: 0;
+                background-position: 12px;
+                background-size: 16px;
+            }
+        
+        
+            .div2 {
+                display: flex;
+                align-items: center;
+            }
+        
+            .list {
+                display: flex;
+                align-items: center;
+                margin-left: 10px;
+            }
+        
+            .list li a{
+                margin-right: 20px;
+                text-decoration: none;
+                 color: inherit;
+                font-size: 15px;}
+        
+            li{
+             display: inline;
+             float: right;}   
+        
+            li:hover{text-decoration: underline;}
+
+
+
+            p.first-line{ text-align:left;}
+    
+    li:hover{text-decoration: underline;}
+    
+
+
+    footer a{color: #f4f6fc;
+            text-decoration: none;
+            padding: 0px 20px 0px 20px;
+            display:inline;}
+          
+ 
+ footer { background-color: #000;
+             color: #fff; 
+             padding: 10px;
+             text-align: left;}
+ 
+     .footer-content { display: flex;
+                      align-items: left;}
+ 
+     .fo-li {list-style: none;
+             padding: 0;
+             margin: 30px 0px 20px 0px;
+             display: flex;}
+ 
+     .fo-li li {margin-right: 0px;}
+ 
+     .fo-li a {text-decoration: none;
+             color: #fff; }
+ 
+     .me { margin-right: 0px; }
+ 
+     .second-line { margin-top: 50px;
+                    text-align: center;}
+
+
+        </style>
+    </head>
+
+    <body>
+        
+        <header>
+            <nav class="one">
+                <img src="images/logo.png" alt="logo" width="100" height="100" class="logo">
+                <input class="search-bar" type="text" placeholder="         Search">
+                <h1 class="title"><center>Virtual Academy</center></h1>
+                <div class="div2">
+                <ul class="list">
+                    <li ><a href="Teach on Virtual Academy.html">Teach on Virtual Academy</a></li>
+                    <li ><a href="Categories.html">Category</a></li>
+                    <li ><a href="index.html">Virtual Academy</a></li>
+                    <li><a href="Log_In.html">Log in</a></li>
+                </ul>
+            </div>
+            </nav>
+        </header>
+
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Sign Up</h1>
+        </header>
+        <form method="post" action="Index2.php" name="Signup" id="contact-form" onsubmit="return validate()">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" >
+
+            <label for="username">Userame:</label>
+            <input type="text" id="username" name="username" >
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" >
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" >
+
+            <label for="gender">Gender:</label>
+            <select name="gender" id="gender">
+                <option value="male" name="male">Male</option>
+                <option value="female" name="female">Female</option>
+            </select>
+
+            <label for="user_number">Phone Number</label>
+            <input type="user_number" id="user_number" name="user_number">
+
+            <label for="Card Number">Card Number:</label>
+            <input type="Card Number" id="Card Number" name="Card Number" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" name="message"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+   <script src = "scripts/validate.js">
+   function validate(){
+    var name = document.forms["Signup"]["name"].value;
+    var username = document.forms["Signup"]["username"].value;
+    var email = document.forms["Signup"]["email"].value;
+    var password = document.forms["Signup"]["password"].value;
+    var gender = document.forms["Signup"]["gender"].value;
+    var number = document.forms["Signup"]["number"].value;
+    
+    if(name.trim() == ""){
+        alert("Please eneter your name");
+        return false;
+    }
+    else if (username.trim() == " "){
+        alert("Username cannot be empty");
+        return false;
+    }
+    else if(password == "" || password.length<6){
+        alert("Password must be at least 6 characters and Password can't be blank.");
+        return false;
+    }
+    else if (!validateemail()){
+        return false;
+    }
+
+    else if(gender == ""){
+        alert("Please select gender.");
+        return false;
+    }
+
+    else{
+        alert("You have successfully registered.");
+        return true;
+    }
+
+   }
+
+
+
+   function validateemail()
+{
+var x = document.froms["Signup"]["email"].value;
+var atposition = x.indexOf("@");
+var dotposition = x.lastIndexOf(".");
+if (atposition < 1 || dotposition < atposition + 2 || dotposition + 2 >= x.length){
+alert("Please enter a valid e-mail address atpostion:" + atposition + "dotposition:" + dotposition);
+return false;
+}
+return true;
+}
+</script>
+
+
+
+
+    
+    <footer class="footer-content"> 
+        <p class="first-line">
+        <img class="me" src="images/logo.png" alt="" height="50" width="50">
+        <ul class="fo-li">
+            <li class="left"><a href="Teach on Virtual Academy.html">Teach on Virtaul Academy</a></li>
+            <li class="left"><a href="about us.html">About Us</a></li>
+            <li class="left"><a href="contact us.html">Contact Us</a></li>
+            <li class="left"><a href="PrivacyPolicy.html">Privacy Policy</a></li>
+        </ul>
+        </p>
+       
+            
+            <p class="second-line"> &copy; 2024 Virtual Academy. All rights reserved.</p>
+       
+    </footer>
+
+</body>
+
+</html>
